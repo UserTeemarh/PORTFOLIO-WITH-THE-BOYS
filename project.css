@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.25px;
+    color: #f7f7f7;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: monospace;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/pic.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    padding: 2.4rem 0.4rem;
+    width: 80%;
+    margin: 0 auto;
+}
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin: .2rem 4rem;
+}
+
+ul li a, a:link, a:active {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    margin: 12vh auto;
+}
+
+h3 {
+    font-weight: lighter;
+    margin-bottom: 3vh;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 5rem;
+    margin-bottom: 1.6rem;
+}
+
+h1 span {
+      font-family: "Dancing Script", cursive
+}
+
+p {
+    /* font-width: 500; */
+    font-size: 1.2rem;
+    margin-bottom: 8vh;
+}
+
+
+button {
+    background-color: transparent;
+    outline: none;
+    /* border: 1px solid #f7f7f7; */
+
+    box-shadow: -1px -1px 2px #f7f7f7;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    display: inline-block;
+    padding: .6rem 1.2rem;
+    margin-right: 1.2rem;
+}
+
+button:hover {
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+.link {
+    border-bottom: 1px solid #f7f7f7;
+    display: inline-block;
+    padding: .4rem .9rem;
+}
