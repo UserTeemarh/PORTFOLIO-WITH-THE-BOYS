@@ -9,6 +9,7 @@
 }
 
 * {
+    cursor: pointer;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +70,7 @@ h2 {
 
 .container {
     height: 75vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/pic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/pic.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -198,6 +199,13 @@ h1 span {
     color: white;
      transition: all 0.8s ease-in-out;
      border-radius: 1.2vh;
+     box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.2);
+
+     transition: all 1.2s ease-in-out;
+}
+
+.content:hover {
+    transform: skew(4deg);
 }
 
 .text {
